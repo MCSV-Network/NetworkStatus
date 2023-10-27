@@ -1,0 +1,10 @@
+{
+  "name": "network-status",
+  "version": "1.0.0",
+  "description": "Status Monitor",
+  "main": "app.js",
+  "repository": "https://github.com/MCSV-Network/NetworkStatus.git",
+  "author": "ringo360",
+  "license": "WTFPL",
+  "private": false
+}
