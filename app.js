@@ -10,6 +10,7 @@ app.get('/', async (req, res) => {
 	  const status = response.status;
 	  res.send(`Status: ${status}`);
 	} catch (error) {
+	  console.error(`ERROR! - ${error}`)
 	  res.send('Error: Unable to fetch status');
 	}
 });
